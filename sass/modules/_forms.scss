@@ -1,0 +1,17 @@
+/*
+Module description
+Markup :
+*/
+
+$legendColor :#8e8e92;
+$legendLizeret: #f3f3f4;
+
+.input-border {
+  border: none;
+  border-bottom : 1px solid $legendLizeret;
+}
+
+.jo-form {
+  @extend .input-border;
+
+}
